@@ -4,7 +4,7 @@ eInput = eField.querySelector("input"),
 pField = form.querySelector(".password"),
 pInput = pField.querySelector("input");
 CpField = form.querySelector(".Cpassword"),
-CpInput = pField.querySelector("input");
+CpInput = CpField.querySelector("input");
 
 form.onsubmit = (e)=>{
   e.preventDefault();
@@ -55,7 +55,7 @@ form.onsubmit = (e)=>{
    }
  }
 
-  if(!eField.classList.contains("error"), !CpField.classList.contains("error"), !pField.classList.contains("error")){
+  if(!eField.classList.contains("error"), !pField.classList.contains("error"), !CpField.classList.contains("error")){
     window.location.href ="login.html"; 
  }
 }
