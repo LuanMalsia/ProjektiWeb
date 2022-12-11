@@ -1,0 +1,692 @@
+header{
+
+    width: 100%;
+    display: flex;
+    background-color: white;
+ 
+ }
+ 
+ 
+ html {
+ 
+     scroll-behavior: smooth;
+ }
+ 
+ #menut{
+ 
+ display: flex;
+ text-decoration: none;
+ text-align: right;
+ padding-top: 20px;
+ padding-bottom: 10px;
+ padding-left: 600px;
+ font-family: sans-serif;
+ background-color: white;
+ width: 100%;
+ 
+ 
+ }
+ 
+ #menut li{ 
+ 
+     display: block;
+    width: 120px;
+    float: left;
+    margin-left: 10px;
+    
+  
+ }
+ 
+ 
+ #menut a {
+ 
+     display: block;
+     padding: 3px;
+     text-decoration: none;
+     background-color: #fff;
+     color: #009;
+ 
+ 
+ 
+ }
+ 
+ #menut a:hover {
+ 
+ 
+   background-color: white;
+   color: red;
+   font-size: 20px;
+ 
+ }
+ 
+ #tit1 {
+   
+ 
+     text-align: center;
+ }
+ 
+ #qika {
+ 
+ padding-left: 30px;
+ width: 100%;
+ height: 100%;
+ display: block;
+ 
+ }
+ 
+ 
+ #s1 {
+    width: 100%;
+    display: flex;
+ 
+ }
+ 
+ #art1{
+ 
+    width: 50%
+    
+ }
+ 
+ 
+ #tit4 {
+ 
+   padding-left: 150px;
+   color: #310085;
+ }
+ 
+ #art2{
+   width: 50%;
+   
+ 
+ 
+ }
+ 
+ #link1 {
+ 
+    border: 0;
+    line-height: 3.6;
+    padding-right: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #081158;
+    margin-left: 150px;
+     
+ }
+ 
+ #link12{
+ 
+    color: white;
+    font-style: sans-serif;
+    text-decoration: none;
+ }
+ 
+ 
+ #link2 {
+ 
+  border: 0;
+     line-height: 3.6;
+     padding-right: 0 20px;
+     font-size: 1rem;
+     text-align: center;
+     border-radius: 5px;
+     background-color: #081158;
+     margin-left: 660px;
+     
+ }
+ 
+ #link123{
+ 
+    color: white;
+    font-style: sans-serif;
+    text-decoration: none;
+ }
+ 
+ #ph1 {
+ 
+    color: #310085;
+    padding-left: 150px;
+    font-size: 25px;
+ 
+ 
+ }
+ 
+ #tit11 {
+    color: #310085;
+   padding-left: 150px;
+   font-size: 60px;
+ 
+ }
+ 
+ 
+ #titull13{
+    max-width: 800px;
+    color: #110163;
+    font-size: 60px;
+    text-align: center;
+    margin-left: 370px;
+    font-family: Sato, sans-serif;
+ 
+ }
+ 
+ #s2 {
+ 
+    width: 100%;
+    height: auto;
+    display: flex;
+ 
+ }
+ 
+ #art3{
+ 
+     width: 50%;
+ 
+ }
+ 
+ 
+ 
+ #ph2 {
+ 
+     text-align: center;
+     font-size: 25px;
+     color: white;
+     background-color: #110163;
+ 
+ 
+ }
+ 
+ #titulli14 {
+ 
+      color:  #110163;
+      padding-left: 250px;
+      font-size: 35px;
+      font-family: sato, sans-serif;
+ 
+ }
+ 
+ #ph3{
+ 
+  color: #081158;
+  font-family: sato,sans-serif;
+  width: 400px;
+  line-height: 1.8;
+  padding-left: 250px;
+  font-size: 16px;
+ 
+ }
+ 
+ #guy {
+ 
+   border-radius: 25px;
+   margin-left: 250px;
+   padding: 20px;
+   width: 300px;
+   height: 280px;
+ }
+ 
+ 
+ 
+ 
+ 
+ #titulli15 {
+ 
+      color:  #110163;
+      padding-left: 150px;
+      font-size: 35px;
+      font-family: sato, sans-serif;
+      width: 400px;
+ 
+ 
+     
+ 
+ }
+ 
+ #ph4{
+ 
+  color: #081158;
+  font-family: sato,sans-serif;
+  width: 400px;
+  line-height: 1.8;
+  padding-left: 150px;
+  font-size: 16px;
+   padding-bottom: 150px;
+  
+ 
+ }
+ 
+ #girl {
+ 
+   border-radius: 25px;
+   margin-left: 140px;
+   padding: 20px;
+   width: 300px;
+   height: 280px;
+ }
+ 
+ 
+ #s3{
+     
+     width: 100%;
+    display: flex;
+ 
+ }
+ 
+ #art4 {
+ 
+    width: 50%;
+ 
+ }
+ 
+ 
+ 
+ #titulli16 {
+ 
+      color:  #110163;
+      padding-left: 250px;
+      font-size: 35px;
+      font-family: sato, sans-serif;
+      width: 400px;
+ 
+ 
+ }
+ 
+ #ph5{
+ 
+  color: #081158;
+  font-family: sato,sans-serif;
+  width: 400px;
+  line-height: 1.8;
+  padding-left: 250px;
+  font-size: 16px;
+   padding-bottom: 150px;
+  
+ 
+ }
+ 
+ 
+ 
+ #protein {
+ 
+   border-radius: 25px;
+   margin-left: 250px;
+   padding: 20px;
+   width: 300px;
+   height: 280px;
+ }
+ 
+ #art5 {
+ 
+    width: 50%;
+ 
+ }
+ 
+ 
+ 
+ #titulli17 {
+ 
+      color:  #110163;
+      padding-left: 150px;
+      font-size: 35px;
+      font-family: sato, sans-serif;
+      width: 400px;
+ 
+ 
+     
+ 
+ }
+ 
+ #ph6{
+ 
+  color: #081158;
+  font-family: sato,sans-serif;
+  width: 400px;
+  line-height: 1.8;
+  padding-left: 150px;
+  font-size: 16px;
+   padding-bottom: 150px;
+  
+ 
+ }
+ 
+ #musicgirl {
+ 
+   border-radius: 25px;
+   margin-left: 140px;
+   padding: 20px;
+   width: 300px;
+   height: 280px;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ #s4{
+ 
+   width: 100%;
+   background-color: #eef0f4;
+   display: flex;
+ 
+ }
+ 
+ #art6 {
+ 
+   width: 60%;
+   display: block;
+ }
+ 
+ #titulli18 {
+ 
+     color: #081158;
+     font-family: sato, sans-serif;
+     font-size: 60px;
+     line-height: 1.0;
+ 
+ }
+ 
+ #ph7 {
+  
+   color: #081158;
+   font-family: sato,sans-serif;
+   font-size: 20px;
+ 
+ }
+ 
+ #link3{
+ 
+     border: 0;
+     line-height: 3.6;
+     padding-right: 0 20px;
+     font-size: 1rem;
+     text-align: center;
+     border-radius: 5px;
+     background-color: #081158;
+     margin-left: 40px;
+     font-family: sato,sans-serif;
+     width: 150px;
+ }
+ 
+ #link1234{
+ 
+    color: white;
+    font-style: sans-serif;
+    text-decoration: none;
+ }
+ 
+ 
+ #s5{
+ 
+   width: 100%;
+   background-color: #eef0f4;
+   display: flex;
+ 
+ }
+ 
+ #art7 {
+   display: flex;
+   width: 33%;
+ }
+ 
+ #art8 {
+   display: flex;
+   width: 33%;
+ }
+ 
+ 
+ #art9 {
+   display: flex;
+   width: 33%;
+ }
+ 
+ 
+ #lisi {
+ 
+ border-radius: 25px;
+   padding: 20px;
+   width: 332px;
+   height: 450px;
+ }
+ 
+ #toja {
+ 
+ border-radius: 25px;
+ 
+   padding: 20px;
+   width: 332px;
+   height: 450px;
+ }
+ 
+ #xhami {
+ 
+ border-radius: 25px;
+ padding: 20px;
+ width: 332px;
+ height: 450px;
+ }
+ 
+ 
+ 
+ 
+ 
+ #s6{
+ 
+   width: 100%;
+    background-color: #081158;
+   display: flex;
+   height: 100%;
+ }
+ 
+ #fundi{
+ 
+   width: 100%;
+ 
+ 
+ 
+ 
+ }
+ 
+ 
+ #footerimenut {
+ 
+   list-style-type: none;
+   padding-top: 50px;
+   line-height: 2.0;
+   font-size: 25px;
+   font-weight: 700;
+   
+   
+ }
+ 
+ #tit21 {
+   
+   color: white;
+   float: left;
+   padding-top: 70px;
+   padding-left: 30px;
+   font-size: 22px;
+   display: block;
+   height: 100%;
+   font-weight: 800;
+   font-family: sato,sans-serif;
+ }
+ 
+ #njetitull{
+ 
+   font-size: 18px;
+   color: white;
+   font-weight: 500;
+   
+ 
+ }
+ 
+ #njetitull2{
+ 
+   font-size: 20px;
+   color: white;
+   font-weight: 500;
+   font-family: sato,sans-serif
+ 
+ }
+ 
+ 
+ 
+ #l1{
+ 
+   color: white;
+   text-decoration: none;
+   list-style-type: none;
+   margin-bottom: 5px;  
+   font-family: Sato, sans-serif;
+   font-size: 20px;
+   line-height: 1.6em;
+   font-weight: 700;
+ }
+ #l2{
+ 
+   color: white;
+   text-decoration: none;
+   list-style-type: none;
+   margin-bottom: 5px;  
+   font-family: Sato, sans-serif;
+   font-size: 20px;
+   line-height: 1.6em;
+   font-weight: 700;
+ } 
+ 
+ #l3{
+ 
+   color: white;
+   text-decoration: none;
+   list-style-type: none;
+   margin-bottom: 5px;  
+   font-family: Sato, sans-serif;
+   font-size: 20px;
+   line-height: 1.6em;
+   font-weight: 700;
+ } 
+ 
+ #l4{
+ 
+   color: white;
+   text-decoration: none;
+   list-style-type: none;
+   margin-bottom: 5px;  
+   font-family: Sato, sans-serif;
+   font-size: 20px;
+   line-height: 1.6em;
+   font-weight: 700;
+ } 
+ 
+ 
+ #footeri2 {
+ 
+   list-style-type: none;
+   height: auto;
+   padding-top: 100px;
+   line-height: 2.0;
+   font-size: 25px;
+   font-weight: 700;
+   padding-right: 300px;
+  
+   
+ }
+ 
+ 
+ 
+ 
+ #njetitull3{
+ 
+   font-size: 20px;
+   color: white;
+   font-weight: 500;
+   font-family: sato,sans-serif
+ 
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ #njetitull2{
+ 
+   font-size: 20px;
+   color: white;
+   font-weight: 500;
+   font-family: sato,sans-serif
+ 
+ }
+ 
+ 
+ 
+ #l5{
+ 
+   color: white;
+   text-decoration: none;
+   list-style-type: none;
+   margin-bottom: 5px;  
+   font-family: Sato, sans-serif;
+   font-size: 20px;
+   line-height: 1.6em;
+   font-weight: 700;
+ }
+ #l6{
+ 
+   color: white;
+   text-decoration: none;
+   list-style-type: none;
+   margin-bottom: 5px;  
+   font-family: Sato, sans-serif;
+   font-size: 20px;
+   line-height: 1.6em;
+   font-weight: 700;
+ } 
+ 
+ #l7{
+ 
+   color: white;
+   text-decoration: none;
+   list-style-type: none;
+   margin-bottom: 5px;  
+   font-family: Sato, sans-serif;
+   font-size: 20px;
+   line-height: 1.6em;
+   font-weight: 700;
+ } 
+ 
+ 
+ 
+   
+    
+ 
+ #art21{
+ 
+   width: 20%;
+ 
+ }  
+ 
+ #art22{
+ 
+   width: 40%;
+ 
+ }   
+ 
+ 
+ 
+ #art16{
+ 
+   width: 40%;
+ 
+ }   
+ 
+ #img100 {
+ 
+   width: 70px;
+   padding-left: 150px;
+ 
+ 
+ }

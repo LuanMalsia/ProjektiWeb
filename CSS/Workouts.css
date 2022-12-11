@@ -1,0 +1,486 @@
+header{
+
+    width: 100%;
+    display: flex;
+    background-color: white;
+    
+ }
+ 
+ 
+ html {
+ 
+     scroll-behavior: smooth;
+ }
+ 
+ #menut{
+ 
+ display: flex;
+ text-decoration: none;
+ text-align: right;
+ padding-top: 20px;
+ padding-bottom: 10px;
+ padding-left: 600px;
+ font-family: sans-serif;
+ width: 100%;
+ 
+ 
+ 
+ }
+ 
+ #menut li{ 
+ 
+     display: block;
+    width: 120px;
+    float: left;
+    margin-left: 10px;
+   
+  
+ }
+ 
+ 
+ #menut a {
+ 
+     display: block;
+     padding: 3px;
+     text-decoration: none;
+     background-color: #fff;
+     color: #009;
+ }
+ 
+ #menut a:hover {
+ 
+ 
+   background-color: white;
+   color: red;
+   font-size: 20px;
+ 
+ }
+ 
+ #tit1 {
+ 
+     text-align: center;
+ }
+ 
+ #img1{
+ 
+    width: 900px;
+    height: 750px;
+    border-radius: 25px;
+    margin-left: 300px;
+ 
+ }
+ 
+ #tit2{
+ 
+   color: #081158;
+   font-family: sato,sans-serif;
+   font-size: 50px;
+   font-weight: 700;
+   text-align: center;
+ 
+ }
+ 
+ 
+ #s1{
+ 
+   width: 100%;
+   display: flex;
+ 
+ }
+ 
+ #art1{
+  
+    width: 33%;
+ }
+ 
+ #img2{
+ 
+   border: 1px solid #ddd;
+   border-radius: 25px;
+   height: 350px;
+   margin-left: 50px;
+   
+ }
+ 
+ #img2:hover{
+ 
+   box-shadow: 0 0 2px 1px color red;
+ 
+ }
+ 
+ #s2 {
+ 
+   display: flex;
+   width: 100%;
+ 
+ 
+ }
+ 
+ 
+ div.polaroid {
+   width: 47%;
+   background-color: white;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   margin-bottom: 25px;
+   margin-left: 15px;  
+   width: 45%;
+   margin-left: 30px;
+ }
+ 
+ div.polaroid2 {
+   width: 53%;
+   background-color: white;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   margin-bottom: 25px;
+   margin-left: 50px;
+ }
+ 
+ div.container {
+   text-align: center;
+   padding: 10px 20px;
+ }
+ 
+ div.container2 {
+   text-align: center;
+   padding: 10px 20px;
+ }
+ 
+ 
+ #s4{
+ 
+   width: 100%;
+   background-color: #ec8675;
+   display:flex;
+   height: 250px;
+ }
+ 
+ #art7{
+ 
+   width: 100%;
+   display: flex;
+ 
+ }
+ 
+ #reklama{
+ 
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    color: white;
+ }
+ 
+ #reklama li{
+ 
+    padding: 100px;
+    font-weight: 400;
+   
+    font-size: 30px;
+    font-family: sato,sans-serif;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+ }
+ 
+ #reklama a{
+ 
+   color: white;  
+     text-decoration: none;
+    list-style-type: none;
+ 
+ }
+ 
+ #reklama:hover {
+  
+   
+   
+   color: red;
+ 
+ }
+ 
+ 
+ #tit3{
+ 
+    font-family: sato, sans-serif;
+    font-weight: 500;
+    font-size: 64px;
+    color: #081158;
+    line-height: 1.1em;
+    text-align: center;
+    width: 50%;
+    padding-left: 350px;
+ 
+ }
+ 
+ #tit4{
+ 
+    font-family: sato, sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    color: #081158;
+    text-align: center;
+    width: 60%;
+    padding-left: 280px;
+ }
+ 
+ #tit5{
+ 
+    font-family: sato, sans-serif;
+    font-weight: 500;
+    font-size: 64px;
+    color: #081158;
+    line-height: 1.1em;
+    text-align: center;
+    width: 50%;
+    padding-left: 350px;
+ 
+ }
+ 
+ #tit6{
+ 
+    font-family: sato, sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    color: #081158;
+    text-align: center;
+    width: 60%;
+    padding-left: 280px;
+ 
+ }
+ 
+ #tit7{
+ 
+    font-family: sato, sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    color: #081158;
+    text-align: center;
+    width: 60%;
+    margin-left: 280px;
+    background-color: lightgrey;
+ 
+ }
+ 
+ #tit8{
+ 
+    font-family: sato, sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    color: #081158;
+    text-align: center;
+    width: 60%;
+    padding-left: 280px;
+ 
+ }
+ 
+ #s6{
+ 
+   width: 100%;
+    background-color: #081158;
+   display: flex;
+   height: 100%;
+ }
+ 
+ #fundi{
+ 
+   width: 100%;
+   height: 480px;
+ 
+ 
+ 
+ 
+ }
+ 
+ 
+ #footerimenut {
+ 
+   list-style-type: none;
+   padding-top: 50px;
+   line-height: 2.0;
+   font-size: 25px;
+   font-weight: 700;
+   
+   
+ }
+ 
+ #tit21 {
+   
+   color: white;
+   float: left;
+   padding-top: 70px;
+   padding-left: 30px;
+   font-size: 22px;
+   display: block;
+   height: 100%;
+   font-weight: 800;
+   font-family: sato,sans-serif;
+ }
+ 
+ #njetitull{
+ 
+   font-size: 18px;
+   color: white;
+   font-weight: 500;
+   
+ 
+ }
+ 
+ #njetitull2{
+ 
+   font-size: 20px;
+   color: white;
+   font-weight: 500;
+   font-family: sato,sans-serif
+ 
+ }
+ 
+ 
+ 
+ #l1{
+ 
+   color: white;
+   text-decoration: none;
+   list-style-type: none;
+   margin-bottom: 5px;  
+   font-family: Sato, sans-serif;
+   font-size: 20px;
+   line-height: 1.6em;
+   font-weight: 700;
+ }
+ #l2{
+ 
+   color: white;
+   text-decoration: none;
+   list-style-type: none;
+   margin-bottom: 5px;  
+   font-family: Sato, sans-serif;
+   font-size: 20px;
+   line-height: 1.6em;
+   font-weight: 700;
+ } 
+ 
+ #l3{
+ 
+   color: white;
+   text-decoration: none;
+   list-style-type: none;
+   margin-bottom: 5px;  
+   font-family: Sato, sans-serif;
+   font-size: 20px;
+   line-height: 1.6em;
+   font-weight: 700;
+ } 
+ 
+ #l4{
+ 
+   color: white;
+   text-decoration: none;
+   list-style-type: none;
+   margin-bottom: 5px;  
+   font-family: Sato, sans-serif;
+   font-size: 20px;
+   line-height: 1.6em;
+   font-weight: 700;
+ } 
+ 
+ 
+ #footeri2 {
+ 
+   list-style-type: none;
+   height: auto;
+   padding-top: 100px;
+   line-height: 2.0;
+   font-size: 25px;
+   font-weight: 700;
+   padding-right: 300px;
+  
+   
+ }
+ 
+ 
+ 
+ 
+ #njetitull3{
+ 
+   font-size: 20px;
+   color: white;
+   font-weight: 500;
+   font-family: sato,sans-serif
+ 
+ }
+ 
+ 
+ #njetitull2{
+ 
+   font-size: 20px;
+   color: white;
+   font-weight: 500;
+   font-family: sato,sans-serif
+ 
+ }
+ 
+ 
+ 
+ #l5{
+ 
+   color: white;
+   text-decoration: none;
+   list-style-type: none;
+   margin-bottom: 5px;  
+   font-family: Sato, sans-serif;
+   font-size: 20px;
+   line-height: 1.6em;
+   font-weight: 700;
+ }
+ #l6{
+ 
+   color: white;
+   text-decoration: none;
+   list-style-type: none;
+   margin-bottom: 5px;  
+   font-family: Sato, sans-serif;
+   font-size: 20px;
+   line-height: 1.6em;
+   font-weight: 700;
+ } 
+ 
+ #l7{
+ 
+   color: white;
+   text-decoration: none;
+   list-style-type: none;
+   margin-bottom: 5px;  
+   font-family: Sato, sans-serif;
+   font-size: 20px;
+   line-height: 1.6em;
+   font-weight: 700;
+ } 
+ 
+ #art21{
+ 
+   width: 20%;
+ 
+ }  
+ 
+ #art22{
+ 
+   width: 40%;
+ 
+ }   
+ 
+ 
+ 
+ #art16{
+ 
+   width: 40%;
+ 
+ }   
+ 
+ #img100 {
+ 
+   width: 70px;
+   padding-left: 150px;
+ 
+ 
+ }
